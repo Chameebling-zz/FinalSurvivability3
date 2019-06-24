@@ -7,5 +7,5 @@ If you get several errors saying files are not found when running the program, o
 constant "REL_PATH_TO_FILES" with the file path to get to the "maps", "fonts" and "images" files. You can see
 where those files are placed based on the classes when you download this repository.
 
-The file path in the constant should end with a "/", not a backslash. The "REL_PATH_TO_FILES" string segment gets prepended into
+The file path in the constant should end with a "/", not a backslash. The "REL_PATH_TO_FILES" string gets prepended into
 all file path strings. Make sure you have that forward slash!
