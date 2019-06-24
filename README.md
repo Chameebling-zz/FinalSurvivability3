@@ -9,3 +9,7 @@ where those files are placed based on the classes when you download this reposit
 
 The file path in the constant should end with a "/", not a backslash. The "REL_PATH_TO_FILES" string gets prepended into
 all file path strings. Make sure you have that forward slash!
+
+If you are using jGRASP, you must open the project which is the Survivability3.gpj file, and then in the "REL_PATH_TO_FILES" constant in Main.java, make that "../"
+
+If you are using Eclipse, make the constant "".
