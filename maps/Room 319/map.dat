@@ -1,0 +1,15 @@
+chunk 0 0
+
+component 0 [cnn,up,0,0,64,64,0]
+
+chunk 1 0
+
+component 0 [flooring,up,0,0,64,64,0]
+
+chunk 0 1
+
+component 0 [flooring,up,0,0,64,64,0]
+
+chunk 1 1
+
+component 0 [roomshot,up,0,0,64,64,0]
