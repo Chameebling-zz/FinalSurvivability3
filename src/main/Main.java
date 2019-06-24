@@ -23,7 +23,7 @@ import javax.swing.*;
 public class Main implements Runnable {
 	
 	// --- CHANGE THIS SO THAT FILES ARE REACHABLE! ---
-	public static final String REL_PATH_TO_FILES = "";
+	public static final String REL_PATH_TO_FILES = "../";
 	
 	// Constant string for the version.
 	public static final String VERSION = "0.1";

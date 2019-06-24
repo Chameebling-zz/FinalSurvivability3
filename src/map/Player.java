@@ -83,8 +83,8 @@ public class Player extends Entity implements KeyListener, MouseListener, MouseM
 	// Runs every time the Runnable interface runs from the main method.
 	public void run() {
 		if(!dead) {
-			s.hideCursor();
 			
+			s.hideCursor();
 			// When the player goes above all the chunk components!
 			if(pos[1]>=Chunk.MAX_COMPONENTS*Main.IMAGE_SIZE) {
 				die("Went too high in the world!");
@@ -104,6 +104,7 @@ public class Player extends Entity implements KeyListener, MouseListener, MouseM
 				damage(100,"Suffocation");
 			}
 			centerMouse();
+			
 		} else {
 			
 		}
@@ -136,6 +137,7 @@ public class Player extends Entity implements KeyListener, MouseListener, MouseM
 			raster[i] += 100;
 		}
 		final JLabel label = s.getCauseOfDeathLabel();
+		label.setText("Cause of Death: ");
 		label.setVisible(true);
 		JButton button = s.getBackButton();
 		button.setVisible(true);
